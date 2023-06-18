@@ -2,7 +2,7 @@ import React from "react";
 
 import { useRef, useLayoutEffect } from "react";
 import '/src/Nav.css'
-import { TweenMax, Power3 } from "gsap";
+import { Power3 } from "gsap";
 import { gsap } from "gsap";
 export default function Nav(){
     const butts = document.querySelector('.first')
