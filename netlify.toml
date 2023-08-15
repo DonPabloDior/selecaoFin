@@ -1,6 +1,3 @@
 [build]
 command = "npm run build"  # The build command you defined in your package.json
 publish = "dist"  # The directory containing your Vite-built files
-
-[[plugins]]
-  package = "netlify-plugin-inline-functions-env"
